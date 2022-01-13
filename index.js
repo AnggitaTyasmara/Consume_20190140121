@@ -43,8 +43,8 @@ function onSignIn(googleUser) {
             td4.innerHTML = response[i].jumlah
             td5.innerHTML = response[i].harga
             td6.innerHTML = `<div class ="justify content-center">
-            <a class="btn ms-2" style="background-color: #858ab3; border:none;" href="edit.html?idproduk=${response[i].idproduk}">Edit</a>
-            <button type ="button" class="btn ms-2" style="background-color: #858ab3; border:none;" onclick="del(${response[i].idproduk});">Delete</button>
+            <a class="btn ms-2" style="background-color: 	#0000FF; color: white; border:none;" href="edit.html?idproduk=${response[i].idproduk}">Edit</a>
+            <button type ="button" class="btn ms-2" style="background-color: #FF0000; color: white; border:none;" onclick="del(${response[i].idproduk});">Delete</button>
             </div>`
             }
         }
